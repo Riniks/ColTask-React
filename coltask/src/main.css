@@ -1,0 +1,398 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+
+.u-logo{
+  background-image: url('../src/Images/Logo.png');
+  height: 85px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+input[type="search"] {
+  padding: 8px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: 1px solid #A00D5B;
+  display: inline-flex;
+  height: 40px;
+  width: 90%;
+}
+
+.search {
+  padding: 6px 0;
+  position: relative;
+}
+
+#p-sumprice{
+  font-weight: bold;
+}
+
+.sumprice {
+  padding-left: 15px;
+  border-left: 1px solid #0fa7ba;
+  font-weight: bold;
+}
+
+.e-cart{
+  margin: 10px 0;
+}
+
+.cart-info {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.i-cart {
+  height: 100%;
+  align-items: center;
+  display: flex;
+}
+
+.mobileMenu{
+  display: none;
+}
+
+#p-quantity, #p-sumprice {
+  border: none;
+  width: 65%;
+  display: inline-block;
+  pointer-events: none;
+}
+
+/* ______ */
+
+/* Nav */
+
+.e-nav {
+  border: 1px solid #cfcfcf;
+}
+
+.navLink {
+  height: 40px;
+  align-items: center;
+  display: inline-flex;
+}
+
+.navLink:first-child {
+  padding-left: 10px;
+}
+
+.navLink a{
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navLink a:hover{
+  color: #0fa7ba;
+}
+
+/* Gallery */
+
+.i-bigimage {
+  padding: 10px;
+}
+
+img {
+  width: 100%;
+  cursor: pointer;
+}
+
+/* ______ */
+
+/* LeftMenu */
+
+.e-LeftMenu ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.e-LeftMenu li {
+  padding: 5px 5px 5px 5px;
+  cursor: pointer;
+  transition: 0.25s all;
+}
+
+.e-LeftMenu {
+  padding: 0;
+  border-radius: 4px;
+  background-color: #F0DB44;
+  margin-top: 10px;
+}
+
+.e-LeftMenu li:hover {
+  background-color: #0fa7ba;
+  padding-left: 15px;
+}
+
+/* ______ */
+
+/* Main Content */
+
+.button::before, .button2::before {content:"";background-color: #cfcfcf;width: calc( 50% - 30px );height: 1px;left: 0;position: absolute;top: 10px;}
+.button::after, .button2::after {content:"";background-color: #cfcfcf;width: calc( 50% - 30px );height: 1px;right: 0;position: absolute;top: 10px;}
+
+.button {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    position: absolute;
+    height: 50%;
+    bottom: 0;
+    z-index: 1;
+    background: #fff;
+    transition: 0.25s all;
+}
+
+.button2 {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.hide{
+    height: 0;
+    display: none;
+}
+
+.button p {
+    background: #fff;
+    z-index: 2;
+}
+
+.Button{
+    padding: 8px;
+    background: #ED2B91;
+    text-align: center;
+    border: 1px solid #A00D5B;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.25s all;
+}
+
+.Button:hover {
+    background: #A00D5B;
+    color: white;
+}
+
+.Button.cartButton {
+    display: inline-flex;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    height: 40px;
+    right: 7px;
+    top: 6px;
+    position: absolute;
+    cursor: pointer;
+    align-items: center;
+}
+
+select.itemOptions {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ED2B91;
+  border-radius: 4px;
+  height: 40px;
+}
+
+.p-itemPrice {
+  color: #0fa7ba;
+}
+.oldPrice{
+  font-size: 10px;
+  color:#A00D5B;
+  display: block;
+  font-weight: bold;
+}
+
+.e-Extender {
+  position: relative;
+}
+
+.e-cartExtension {
+  padding: 8px;
+  border: 1px solid #cfcfcf;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.e-cart{
+  margin: 10px 0;
+}
+
+.cart-info {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.i-cart {
+  height: 100%;
+  align-items: center;
+  display: flex;
+}
+
+
+/* ______ */
+
+.hide{
+  height: 0;
+  display: none;
+}
+
+/* Bottom Content */
+
+.e-bottomContent {
+  width: 100%;
+}
+
+.e-card {
+  background-color: #F0DB44;
+  height: 100%;
+  padding: 0 5px 0 5px;
+  position: relative;
+  margin-top: 10px;
+}
+
+.e-card:before, .e-card:after {
+  content: "";
+  height: 2px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  -webkit-clip-path: polygon(0% 0%, 5%  100%, 10% 0%, 15%  100%, 20% 0%, 25% 100%, 30% 0%, 35%  100%, 40% 0%, 45%  100%, 50% 0%, 55%  100%, 60% 0%, 65%  100%, 70% 0%, 75%  100%, 80% 0%, 85%  100%, 90% 0%, 95%  100%, 100% 0%);
+}
+
+.e-card:after {
+  background-color: white;
+  bottom: -1px;
+  z-index: 1;
+}
+
+.e-card:before {
+  background-color: yellow;
+  top: 0;
+}
+
+.e-bottomContent {
+  margin-top: 10px;
+  width: 100%;
+}
+
+/* ______ */
+
+/* Footer */
+
+footer {
+  margin-top: 20px;
+}
+
+.p-FooterDescription {
+  margin-top: 10px;
+}
+
+.e-SocialBar a,
+.e-Bestsellers a {
+    color:#333;
+    text-decoration: none;
+}
+.e-SocialBar a:hover,
+.e-Bestsellers a:hover {
+    color:#0fa7ba;
+}
+
+.e-SocialBar p {
+    padding-right: 12px;
+    display: inline;
+}
+
+/* ______ */
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* MOBILE */
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .mobileMenu{
+      display: flex;
+  }
+  .searchM {
+      display: none;
+  }
+  .e-nav{
+      display:none;
+  }
+  .e-leftMenuMobile{
+      display: none;
+  }
+  .container {
+      padding-right: 30px;
+      padding-left: 30px;
+  }
+  .sumprice, .checkout{
+      display: none;
+  }
+  .e-header {
+      margin-top: 5px;
+  }
+  .Hamburger {
+      display: flex;
+      margin-top: 10px;
+  }
+  .e-card:before, .e-card:after {
+      -webkit-clip-path: none;
+  }
+  .order-first-m {
+      -webkit-box-ordinal-group: 0;
+      -ms-flex-order: -1;
+      order: -1;
+  }
+}

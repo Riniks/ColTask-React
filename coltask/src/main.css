@@ -119,6 +119,11 @@ img {
   transition: 0.25s all;
 }
 
+.e-LeftMenu li a{
+  color: #333;
+  text-decoration: none;
+}
+
 .e-LeftMenu {
   padding: 0;
   border-radius: 4px;

@@ -16,25 +16,25 @@ function MainComponent() {
         <div class="col-md-2 e-leftMenuMobile">
             <div class="e-LeftMenu">
             <ul>
-                <li>Paper clips</li>
-                <li>Post-it notes</li>
-                <li>Staples</li>
-                <li>Hole punches</li>
-                <li>Binders</li>
-                <li>Staplers</li>
-                <li>Laminators</li>
-                <li>Writing utensils</li>
-                <li>Paper</li>
-                <li>Computers</li>
-                <li>Printers</li>
-                <li>Fax machines</li>
-                <li>Photocopiers</li>
-                <li>Cash registers</li>
-                <li>Office furniture</li>
-                <li>Chairs</li>
-                <li>Cubicles</li>
-                <li>Filing cabinet</li>
-                <li>Armoire desks</li>
+                    <li><a href="#">Paper clips</a></li>
+                    <li><a href="#">Post-it notes</a></li>
+                    <li><a href="#">Staples</a></li>
+                    <li><a href="#">Hole punches</a></li>
+                    <li><a href="#">Binders</a></li>
+                    <li><a href="#">Staplers</a></li>
+                    <li><a href="#">Laminators</a></li>
+                    <li><a href="#">Writing utensils</a></li>
+                    <li><a href="#">Paper</a></li>
+                    <li><a href="#">Computers</a></li>
+                    <li><a href="#">Printers</a></li>
+                    <li><a href="#">Fax machines</a></li>
+                    <li><a href="#">Photocopiers</a></li>
+                    <li><a href="#">Cash registers</a></li>
+                    <li><a href="#">Office furniture</a></li>
+                    <li><a href="#">Chairs</a></li>
+                    <li><a href="#">Cubicles</a></li>
+                    <li><a href="#">Filing cabinet</a></li>
+                    <li><a href="#">Armoire desks</a></li>
             </ul>
         </div>
         </div>
